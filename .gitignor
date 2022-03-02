@@ -1,4 +1,18 @@
 # Build and Release Folders
+apt update && apt upgrade -y
+
+pkg install fish -y
+
+pkg install wget -y
+
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+
+chmod +x install-nethunter-termux
+
+./install-nethunter-termux
+
+
+
 bin-debug/
 bin-release/
 [Oo]bj/
@@ -6,7 +20,6 @@ bin-release/
 
 # Other files and folders
 .settings/
-
 # Executables
 *.swf
 *.air
