@@ -10,7 +10,7 @@ Purple="\033[1;35m"      # Purple
 Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 
-banner() {
+
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
