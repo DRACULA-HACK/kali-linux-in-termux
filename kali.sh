@@ -23,7 +23,7 @@ echo -e    "\e[91m"
 echo " "
 
 
-Kali linux apt update && apt upgrade -y
+apt update && apt upgrade -y
 
 pkg install fish -y
 
