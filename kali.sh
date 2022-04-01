@@ -11,7 +11,16 @@ Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 
 
-
+echo -e " \e[96m
+                                     ████████ \e[0m"
+echo "                                 ████████████████
+                                   █─▄▀█──█▀▄─█
+                                  ▐▌──────────▐▌"
+echo -e    "\e[0m                                  █▌\e[91m▀▄──▄▄──▄▀\e[0m▐█"
+echo -e    "\e[0m                                 ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██"
+echo "                                ▄████▄──▐▌──▄████▄"
+echo -e    "\e[91m"
+echo " "
 
 
 Kali linux apt update && apt upgrade -y
