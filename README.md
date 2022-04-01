@@ -1,17 +1,21 @@
 # kali-linux-in-termux
-Kali linux
-apt update && apt upgrade -y
 
-pkg install fish -y
 
-termux-setup-storage
+commands to install kali nethunter
 
-pkg install wget -y
 
-wget -O install-nethunter-termux https://offs.ec/2MceZWr
+git clone https://github.com/DRACULA-HACK/kali-linux-in-termux
 
-chmod +x install-nethunter-termux
 
-./install-nethunter-termux
+cd kali-linux-in-termux
+
+
+
+chmod +x *
+
+
+bash kali.sh
+
+
 
 thank you
